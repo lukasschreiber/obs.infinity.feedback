@@ -44,3 +44,6 @@ To install the Server move to the servers directory and run `npm install`. After
 
 ### Plugin
 The Plugin consists of a OBS Custom Browser Dock and a Python Script. Both must be added to your OBS installation. Please note, that in order to run a Python Script you need to install Python and add the Python Path to OBS. OBS currently only supports Python v3.6. The Plugin can be installed via the `installer.bat`. This Program will leave you with two paths. Those are the files that need to be integrated in OBS.
+
+### Android
+You can either build the binaries yourself using gradle or download the latest build from this repository.
