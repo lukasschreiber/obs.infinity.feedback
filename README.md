@@ -38,3 +38,5 @@ CREATE TABLE `church_keys` (
 ) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
 
 ```
+
+To install the Server move to the servers directory and run `npm install`. After that you can launch the server with `npm start`. To keep the server up, I recommend using `forever`. You can install that with `npm install -g forever` and launch the server with `forever start index.js`.  
