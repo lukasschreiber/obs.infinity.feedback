@@ -1,0 +1,9 @@
+[submodule "obs.infinity.feedback.server"]
+	path = obs.infinity.feedback.server
+	url = https://github.com/lukasschreiber/obs.infinity.feedback.server
+[submodule "obs.infinity.feedback.plugin"]
+	path = obs.infinity.feedback.plugin
+	url = https://github.com/lukasschreiber/obs.infinity.feedback.plugin
+[submodule "obs.infinity.feedback.android"]
+	path = obs.infinity.feedback.android
+	url = https://github.com/lukasschreiber/obs.infinity.feedback.android
