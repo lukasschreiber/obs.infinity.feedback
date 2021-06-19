@@ -40,3 +40,7 @@ CREATE TABLE `church_keys` (
 ```
 
 To install the Server move to the servers directory and run `npm install`. After that you can launch the server with `npm start`. To keep the server up, I recommend using `forever`. You can install that with `npm install -g forever` and launch the server with `forever start index.js`.  
+
+
+### Plugin
+The Plugin consists of a OBS Custom Browser Dock and a Python Script. Both must be added to your OBS installation. Please note, that in order to run a Python Script you need to install Python and add the Python Path to OBS. OBS currently only supports Python v3.6. The Plugin can be installed via the `installer.bat`. This Program will leave you with two paths. Those are the files that need to be integrated in OBS.
