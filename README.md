@@ -39,7 +39,7 @@ CREATE TABLE `church_keys` (
 
 ```
 
-To install the Server move to the servers directory and run `npm install`. After that you can launch the server with `npm start`. To keep the server up, I recommend using `forever`. You can install that with `npm install -g forever` and launch the server with `forever start index.js`.  
+To install the Server move to the servers directory and run `npm install`. After that you can launch the server with `npm start`. To keep the server up, I recommend using `forever` for development. You can install that with `npm install -g forever` and launch the server with `forever start index.js`. For production it is better to use a cron job.
 
 
 ### Plugin
